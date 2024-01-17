@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    font-size: 24pt;
+    //height: 100%;
+   // margin: 0;
+}
+
+#top{
+    display: flex;
+    height: 20%;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+#mid{
+    display: flex;
+    flex-direction: row;
+    height: 65%;
+}
+#center{
+    display: flex;
+    width: 75%;
+    background-color: greenyellow;
+    align-items: center;
+    justify-content: center;
+}
+#right{
+    display: flex;
+    width: 25%;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+#low{
+    display: flex;
+    height: 15%;
+    background-color: darkturquoise;
+    align-items: center;
+    justify-content: center;
+}
